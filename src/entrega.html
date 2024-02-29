@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio de Diseño</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+<div class="header">
+    <h1>Real madrid</h1>
+</div>
+
+<div class="sidebar" id="sidebar1">
+</div>
+
+<div class="main">
+    <p><span class="highlight">Este es un texto resaltado</span> en el contenido principal.</p>
+    <p class="underline">Este es un texto subrayado en el contenido principal.</p>
+    <img src="descarga.png.jpg" alt="Real madrid">
+</div>
+
+<div class="sidebar" id="sidebar2">
+</div>
+
+<div class="footer">
+    Footer
+</div>
+
+</body>
+</html>
+<style>
+    body, html {
+        margin: 0;
+        padding: 0;
+    }
+
+    .header, .footer, .main, .sidebar {
+        box-sizing: border-box;
+
+    }
+
+    .header {
+        background-color: royalblue;
+        overflow: hidden;
+        align-content: center;
+    }
+
+    .sidebar {
+        background-color: peru;
+        width: 20%;
+        float: left;
+        height: 300px;
+    }
+
+    .main {
+        background-color: tomato;
+        margin-left: 22%;
+        height: 400px;
+    }
+
+    .footer {
+        background-color: palegreen;
+        clear: both;
+    }
+
+    h1 {
+        text-transform: uppercase;
+        margin: 0;
+    }
+
+    .underline {
+        text-decoration: underline;
+    }
+
+    .highlight {
+        background-color:purple;
+    }
+
+</style>
